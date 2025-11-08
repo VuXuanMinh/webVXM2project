@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3 - Contact</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <a href="#maincontent" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <h1>Page 3: Contact Information</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">About</a></li>
+            <li><a href="page3.html">Contact</a></li>
+        </ul>
+        <img src="logo.png" alt="Logo">
+    </nav>
+    
+    <main id="maincontent">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out via email or phone. The line spacing on this page is also styled by the common stylesheet.</p>
+
+        <div class="grid">
+            <img src="park1.jpg" alt="Park 1">
+            <img src="park2.jpg" alt="Park 2">
+        </div>
+
+        <div class="flex">
+            <img src="item1.jpg" alt="Item 1">
+            <img src="item2.jpg" alt="Item 2">
+        </div>
+    </main>
+    
+    <footer>
+        <p>Coursera CSS Project Completion &copy; 2025</p>
+    </footer>
+</body>
+</html>
